@@ -1,0 +1,19 @@
+{
+  "name": "me.enpiech.firebase-helper",
+  "version": "1.0.0",
+  "displayName": "Firebase Helper",
+  "description": "Firebase Helper classes",
+  "unity": "2021.3",
+  "unityRelease": "16f1",
+  "dependencies": {
+    "me.enpiech.core": "^1.1.3"
+  },
+  "keywords": [
+    "firebase",
+    "helper"
+  ],
+  "author": {
+    "name": "Enpiech",
+    "email": "enpiech@gmail.com"
+  }
+}
