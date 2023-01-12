@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
 using Enpiech.Core.Runtime;
 using GoogleMobileAds.Api;
 using GoogleMobileAds.Common;
@@ -102,6 +101,12 @@ namespace FirebaseHelper.Runtime
 
         public void Start()
         {
+#if APPLOVIN
+            AppLovin.Initialize()
+            AppLovin.SetHasUserConsent(true);
+            AppLovin.SetIsAgeRestrictedUser(true);
+            AppLovin.SetDoNotSell(true);
+#endif
             MobileAds.SetiOSAppPauseOnBackground(true);
 #if DEV
             var deviceIds = new List<string> { AdRequest.TestDeviceSimulator };
