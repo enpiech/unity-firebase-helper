@@ -1,0 +1,17 @@
+{
+  "name": "me.enpiech.firebase-helper",
+  "rootNamespace": "FirebaseHelper",
+  "references": [
+    "Unity.TextMeshPro",
+    "Core.Runtime"
+  ],
+  "includePlatforms": [],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "overrideReferences": false,
+  "precompiledReferences": [],
+  "autoReferenced": true,
+  "defineConstraints": [],
+  "versionDefines": [],
+  "noEngineReferences": false
+}
